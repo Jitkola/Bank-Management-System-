@@ -1,11 +1,11 @@
-# 🏦 Bank Management System
+  Bank Management System
 
 A **Java-based desktop banking application** that brings core banking features to life in a clean, interactive, and secure way.  
 Built with **Java Swing** for the interface and **MySQL** for data storage, it provides a smooth experience for account creation, transactions, and account management — just like a real bank.
 
 ---
 
-## 📌 Description
+  Description
 
 The **Bank Management System** lets users open new accounts, log in securely, and manage their finances with ease.  
 It includes a guided multi-step signup process, automatic **card number** & **PIN** generation, and a login system that keeps your data safe.  
@@ -14,7 +14,7 @@ Every action is recorded in the database, ensuring up-to-date account details an
 
 ---
 
-## ✨ Features
+  Features
 
 - Guided **Account Signup** in multiple steps  
 - Automatic **Card Number & PIN** creation  
@@ -28,7 +28,7 @@ Every action is recorded in the database, ensuring up-to-date account details an
 
 ---
 
-## 🚀 How to Start
+ How to Start
 
 - Download or clone this repository and ensure all source files are present in the `src/bank/management/system/` directory.  
 - Open the complete project folder in your Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).  
@@ -39,7 +39,7 @@ Every action is recorded in the database, ensuring up-to-date account details an
 
 ---
 
-## 🗄️ Database Setup
+  Database Setup
 
 Run the following commands in your MySQL command line or MySQL Workbench to create the database and required tables:
 
