@@ -28,9 +28,74 @@ Every action is recorded in the database, ensuring up-to-date account details an
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 How to Start
 
-- **Language:** Java  
-- **GUI Framework:** Swing  
-- **Database:** MySQL  
-- **Connectivity:** JDBC
+- Download or clone this repository and ensure all source files are present in the `src/bank/management/system/` directory.  
+- Open the complete project folder in your Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).  
+- Make sure your project’s folder structure and dependencies (including database connection settings in files like `Con.java`) are correctly set up.  
+- Compile the entire project to resolve dependencies between classes.  
+- Run the `Login.java` file — this is the first page of the application and the entry point to the system.  
+- From the login page, you can navigate through the app features.
+
+---
+
+## 🗄️ Database Setup
+
+Run the following commands in your MySQL command line or MySQL Workbench to create the database and required tables:
+
+```sql
+CREATE DATABASE bankSystem;
+USE bankSystem;
+
+CREATE TABLE signup (
+  form_no VARCHAR(30),
+  name VARCHAR(30),
+  father_name VARCHAR(30),
+  DOB VARCHAR(30),
+  gender VARCHAR(30),
+  email VARCHAR(60),
+  marital_status VARCHAR(30),
+  address VARCHAR(60),
+  city VARCHAR(30),
+  pincode VARCHAR(30),
+  state VARCHAR(50)
+);
+SELECT * FROM signup;
+
+CREATE TABLE signuptwo (
+  form_no VARCHAR(30),
+  religion VARCHAR(30),
+  category VARCHAR(30),
+  income VARCHAR(30),
+  education VARCHAR(30),
+  occupation VARCHAR(60),
+  pan VARCHAR(30),
+  aadhar VARCHAR(60),
+  seniorcitizen VARCHAR(30),
+  existing_account VARCHAR(30)
+);
+SELECT * FROM signuptwo;
+
+CREATE TABLE signupthree (
+  form_no VARCHAR(30),
+  account_Type VARCHAR(40),
+  card_number VARCHAR(30),
+  pin VARCHAR(30),
+  facility VARCHAR(200)
+);
+SELECT * FROM signupthree;
+
+CREATE TABLE login (
+  form_no VARCHAR(30),
+  card_number VARCHAR(50),
+  pin VARCHAR(30)
+);
+SELECT * FROM login;
+
+CREATE TABLE bank (
+  pin VARCHAR(10),
+  date VARCHAR(50),
+  type VARCHAR(20),
+  amount VARCHAR(20)
+);
+SELECT * FROM bank;
