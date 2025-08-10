@@ -30,12 +30,12 @@ Every action is recorded in the database, ensuring up-to-date account details an
 
  How to Start
 
-- Download or clone this repository and ensure all source files are present in the `src/bank/management/system/` directory.  
-- Open the complete project folder in your Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).  
-- Make sure your project’s folder structure and dependencies (including database connection settings in files like `Con.java`) are correctly set up.  
-- Compile the entire project to resolve dependencies between classes.  
-- Run the `Login.java` file — this is the first page of the application and the entry point to the system.  
-- From the login page, you can navigate through the app features.
+Step1:- Download or clone this repository and ensure all source files are present in the `src/bank/management/system/` directory.  
+Step2:- Open the complete project folder in your Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).  
+Step3:- Make sure your project’s folder structure and dependencies (including database connection settings in files like `Con.java`) are correctly set up.  
+Step4:- Compile the entire project to resolve dependencies between classes.  
+Step5:- Run the `Login.java` file — this is the first page of the application and the entry point to the system.  
+Step6:- From the login page, you can navigate through the app features.
 
 ---
 
